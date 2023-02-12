@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Form Registration</h1>
+        <form action=""></form>
+        <table>
+            <tr>
+                <td><label for="">Full Name</label></td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">ID Number</label></td>
+                <td>:</td>
+                <td><input type="number" name="IDK"></td>
+            </tr>
+            <tr>
+                <td><label for="lahir">Place of birth</label></td>
+                <td>:</td>
+                <td><input type="text" name="lahir"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Date of birth</label></td>
+                <td>:</td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr><td><label for="kota">Origin district/city</label></td>
+                <td>:</td>
+                <td>
+                    <select id="kota">
+                        <option value="Bandung">Bandung</option>
+                        <option value="Malang">Malang</option>
+                        <option value="Makassar">Makassar</option>
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Lumajang">Lumajang</option>
+                        <option value="Surabaya">Surabaya</option>
+                        <option value="Yogyakarta">Yogyakarta</option>
+                        <option value="Semarang">Semarang</option>
+                        <option value="Denpasar">Denpasar</option>
+                        <option value="Batam">Batam</option>
+                        <option value="Medan">Medan</option>
+                        <option value="Manado">Manado</option>
+                        <option value="Balikpapan">Balikpapan</option>
+                        <option value="Palembang">Palembang</option>
+                        <option value="Sidoarjo">Sidoarjo</option>
+                        <option value="Padang">Padang</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="education">Last Education</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="education" id="education" value="Senio High School">
+                    <label for="SHS">Senior High School</label>
+                    <input type="radio" name="education" id="education" value="Diploma 4">
+                    <label for="D4">Diploma 4</label>
+                    <input type="radio" name="education" id="education" value="Strata 1">
+                    <label for="S1">Strata 1</label>
+                    <input type="radio" name="education" id="education" value="Strata 2">
+                    <label for="S2">Strata 2</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hp">Phone number</label></td>
+                <td>:</td>
+                <td><input type="tel" name="hp" id="hp" value="+62"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email address</label></td>
+                <td>:</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="lang">Preferred training skills</label></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="diklat" id="lang1" value="HTML">
+                    <label for="lang">HTML</label>
+                    <input type="checkbox" name="diklat" id="lang2" value="CSS">
+                    <label for="lang">CSS</label>
+                    <input type="checkbox" name="diklat" id="lang3" value="Javascript">
+                    <label for="lang">Javascript</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Your reason for taking this training</td>
+                <td>:</td>
+                <td><textarea style="width: 250; height: 100;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="cv">Upload CV</label></td>
+                <td>:</td>
+                <td><input type="file" name="cv" id="cv"></td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    <button type="submit" onclick="alert('Thank you for signing up for this service.')">Kirim</button>
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
